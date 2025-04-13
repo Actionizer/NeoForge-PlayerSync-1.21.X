@@ -25,4 +25,7 @@ jobs:
         run: ./gradlew build
 
       - name: List dir
-        run: ls
+        run: |
+          echo "Build/libs:"
+          ls build/libs/
+          
